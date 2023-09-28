@@ -9,6 +9,7 @@ import PonudaComponent from './components/ponuda/PonudaComponent';
 import StatistikaComponent from './components/statistika/StatistikaComponent';
 import NasiProizvodiComponent from './components/nasi-proizvodi/NasiProizvodiComponent';
 import BrendoviComponent from './components/brendovi/BrendoviComponent';
+import FooterComponent from './components/footer/FooterComponent';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <StatistikaComponent/>
       <NasiProizvodiComponent/>
       <BrendoviComponent/>
+      <FooterComponent/>
       
     </div>
   );

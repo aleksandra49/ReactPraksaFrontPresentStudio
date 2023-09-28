@@ -1,0 +1,221 @@
+footer {
+    /*za odvavanje od dugmeta*/
+    /*margin-top: 2rem;*/
+    display: flex;
+    background-image: url("../../images/footerSLika.png");
+    background-size: cover;
+    flex-direction: column;
+    list-style-type: none;
+    width: 100%;
+
+}
+
+footer .footerGore {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+footer .footerDole {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    bottom: 0;
+    /*color: gray;*/
+    color: var(--footerDole-color);
+    background-color: rgba(0, 0, 0, 0.33);
+    /*text-decoration: underline;*/
+}
+
+footer .footerGore .prviDivlogo {
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+footer .drugiDivKontakt,
+footer .treciDivSadrzaj,
+footer .cetvrtiDivPracenje {
+    position: relative;
+    /* Postavljanje relativnog položaja za ove elemente */
+}
+
+footer .drugiDivKontakt::before,
+footer .treciDivSadrzaj::before,
+footer .cetvrtiDivPracenje::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    /* Širina sive linije */
+    background: rgba(255, 255, 255, 0.25);
+    /* Boja sive linije */
+    border: 1px;
+}
+
+
+footer .drugiDivKontakt {
+    color: #F4F4F4;
+    padding-left: 40px;
+    align-items: center;
+}
+
+footer .drugiDivKontakt .naslov {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.drugiDivKontakt .tekst {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.drugiDivKontakt .adresa,
+.email,
+.telefon {
+    display: flex;
+    /*flex-direction: column;*/
+    padding-top: 35px;
+    align-content: center;
+
+}
+
+.divPodaci .tekst {
+    padding-left: 15px;
+}
+
+.email,
+.telefon {
+    text-decoration: underline;
+}
+
+.adresa .tekst {
+    /*word-wrap: break-word;*/
+    /*overflow-wrap: break-word;*/
+    width: 200px !important;
+    height: 20px;
+
+    /*lokacija se uveca*/
+}
+
+footer .treciDivSadrzaj {
+    color: #F4F4F4;
+    /*text-transform: uppercase;*/
+    padding-left: 15px;
+
+}
+
+footer .treciDivSadrzaj ul li {
+    /*ovo nam stoji da bi iskljucilo one tackice koje se stvaraju kada je lista*/
+    list-style-type: none;
+
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 40;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+
+
+footer .cetvrtiDivPracenje {
+    color: #F4F4F4;
+    /*padding-left: 15px;
+    padding-right: 100px;*/
+    
+
+}
+
+.cetvrtiDivPracenje .naslov {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    padding-left: 15px;
+    /*width: 71px;*/
+    height: 26px;
+    /*background: #FFFFFF;*/
+
+}
+
+.cetvrtiDivPracenje .drustveneMrezeIkone {
+    letter-spacing: 6px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+
+footer .footerDole .copyText {
+
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+
+
+}
+
+footer .footerDole .privatnost {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+
+    height: 19px;
+    top: 339px;
+    left: 685px;
+
+    text-decoration: underline;
+
+
+
+}
+
+footer .footerDole .uslovi {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-decoration: underline;
+
+}
+
+footer .footerDole .powered {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    /*da ga priblizim elementu Studio Present*/
+
+}
+
+footer .footerDole .studio {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-decoration: underline;
+    color: #FFFFFF80;
+
+
+}
