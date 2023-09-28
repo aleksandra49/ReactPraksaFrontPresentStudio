@@ -11,11 +11,8 @@ const AboutUsComponent = () => {
 
         <div class="textDesno">
             <div class="elementiGore">
-
                 <div class="bigText">DVG Company</div>
-
                 <div class="smallText">Veleprodaja i maloprodaja kozmetike i kućne hemije</div>
-
             </div>
 
             <div class="elementiDole">

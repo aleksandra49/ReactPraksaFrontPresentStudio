@@ -4,6 +4,7 @@ import HeaderComponent from './components/header/HeaderComponent';
 import PopupComponent from './components/popup/PopupComponent';
 import SwiperImagesComponent from './components/slider-first/SwiperImagesComponent';
 import AboutUsComponent from './components/o-nama/AboutUsComponent';
+import ParallaxComponent from './components/parallax/ParallaxComponent';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeaderComponent/>
       <SwiperImagesComponent/>
       <AboutUsComponent/>
+      <ParallaxComponent/>
       
     </div>
   );
