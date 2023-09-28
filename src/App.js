@@ -5,6 +5,7 @@ import PopupComponent from './components/popup/PopupComponent';
 import SwiperImagesComponent from './components/slider-first/SwiperImagesComponent';
 import AboutUsComponent from './components/o-nama/AboutUsComponent';
 import ParallaxComponent from './components/parallax/ParallaxComponent';
+import PonudaComponent from './components/ponuda/PonudaComponent';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SwiperImagesComponent/>
       <AboutUsComponent/>
       <ParallaxComponent/>
+      <PonudaComponent/>
       
     </div>
   );
