@@ -7,6 +7,7 @@ import AboutUsComponent from './components/o-nama/AboutUsComponent';
 import ParallaxComponent from './components/parallax/ParallaxComponent';
 import PonudaComponent from './components/ponuda/PonudaComponent';
 import StatistikaComponent from './components/statistika/StatistikaComponent';
+import NasiProizvodiComponent from './components/nasi-proizvodi/NasiProizvodiComponent';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ParallaxComponent/>
       <PonudaComponent/>
       <StatistikaComponent/>
+      <NasiProizvodiComponent/>
       
     </div>
   );
