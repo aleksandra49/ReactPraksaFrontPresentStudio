@@ -6,8 +6,9 @@ import PopupComponent from './components/popup/PopupComponent';
 function App() {
   return (
     <div className="App">
-      <HeaderComponent/>
       <PopupComponent/>
+      <HeaderComponent/>
+      
     </div>
   );
 }

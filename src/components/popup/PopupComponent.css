@@ -1,0 +1,95 @@
+/* Stil za popup kontejner */
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /*da mi centrira iznad celog dizajna jer se pre nalazio ispod u paraplaxu*/
+    text-align: center;
+}
+
+/* Stil za sliku u popupu */
+.popup-image {
+    filter: brightness(50%);
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Stil za zatvaranje popupa */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    z-index: 2; 
+}
+
+/* Stil za tekst u popupu */
+.popup-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 70%; 
+    text-shadow: 2px 2px black;
+    
+}
+
+/* Stil za tekst u gornjem levom uglu */
+.popup-textDvg {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 34px;
+    text-shadow: 2px 2px black;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .popup-container {
+        top: 20%;
+        left: 60%;
+        transform: translate(-60%, -40%);
+        width: 70%;
+    }
+    .popup-text {
+        font-size: 12px;
+    }
+    .popup-textDvg {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width:900px) {
+
+
+    .popup-container {
+        /* Postavite željene stilove za širinu ekrana veću ili jednaku 900px */
+        top: 40%;
+        left: 60%;
+        transform: translate(-60%, -40%);
+        width: 70%;
+    }
+    .popup-text {
+        /* Postavite željene stilove za širinu ekrana veću ili jednaku 900px */
+        font-size: 20px;
+    }
+    .popup-textDvg {
+        /* Postavite željene stilove za širinu ekrana veću ili jednaku 900px */
+        /*top: 10%;*/
+        font-size: 30px;
+        
+    }
+}
+
