@@ -1,0 +1,117 @@
+.naslovDVG {
+    text-align: center;
+    /*margin-top: 150px;*/
+    justify-content: center;
+    align-items: center;
+
+    /*background-color: #fff;*/
+    background-color: var(--naslovDVG-background-color);
+}
+
+.naslovDVG .dvg {
+
+    margin-bottom: 13px;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    /*color: #303030;*/
+    color: var(--naslovDVG-dvg-color);
+}
+
+.naslovDVG .brojke {
+
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    /*color: #474747;*/
+    color: var(--naslovDVG-brojke-color);
+    margin-bottom: 70px;
+}
+
+.naslovDVG .brojke::after {
+    content: '';
+    display: block;
+    background: #BF0F0F;
+
+    width: 137px;
+    height: 6px;
+    top: 2668px;
+    left: 650px;
+    /*margin-left: 605px;
+    margin-top: 20px;*/
+    margin:auto;
+    margin-top: 20px;
+}
+
+
+
+/*STATISTIKA*/
+
+.naslovDVG .statistikaBrojke {
+    background-image: url('../../images/zaStatistikuBackground.png');
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+
+.naslovDVG .statistikaBrojke ul {
+    display: flex;
+    list-style-type: none;
+    text-align: justify;
+    white-space: pre-wrap;
+    /*izmedju elementa pravi razmak*/
+    letter-spacing: 7px;
+
+}
+
+/*.naslovDVG .statistikaBrojke ul li:not(:last-child){
+    
+    border-right: 0.5px solid #C4C4C466;
+    padding-right: 10px;
+}*/
+
+.statistikaBrojke ul li {
+    border-right: 0.5px solid #C4C4C466;
+    padding: 10px ; 
+    padding-right: 10px;
+  }
+  
+
+  .statistikaBrojke ul li:last-child {
+    border-right: none;
+  }
+
+.naslovDVG .statistikaBrojke .broj {
+    font-family: Inter;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #fff;
+}
+
+.naslovDVG .statistikaBrojke p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    
+}

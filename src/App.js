@@ -6,6 +6,7 @@ import SwiperImagesComponent from './components/slider-first/SwiperImagesCompone
 import AboutUsComponent from './components/o-nama/AboutUsComponent';
 import ParallaxComponent from './components/parallax/ParallaxComponent';
 import PonudaComponent from './components/ponuda/PonudaComponent';
+import StatistikaComponent from './components/statistika/StatistikaComponent';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AboutUsComponent/>
       <ParallaxComponent/>
       <PonudaComponent/>
+      <StatistikaComponent/>
       
     </div>
   );
