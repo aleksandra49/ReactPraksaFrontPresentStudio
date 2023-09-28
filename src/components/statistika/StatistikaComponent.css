@@ -57,7 +57,7 @@
 
 .naslovDVG .statistikaBrojke {
     background-image: url('../../images/zaStatistikuBackground.png');
-    padding: 50px;
+    padding: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,4 +114,32 @@
     text-align: center;
     color: #fff;
     
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .naslovDVG .dvg {
+        padding-top: 40px;
+        font-size: 30px;
+    }
+    
+    .naslovDVG .statistikaBrojke .broj {
+        font-size: 30px;
+    }
+
+    .naslovDVG .statistikaBrojke ul {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:900px) {
+
+    .naslovDVG .statistikaBrojke ul li {
+        border: none;
+    }
+
+    .naslovDVG .statistikaBrojke ul {
+        flex-direction: column;
+    }
 }

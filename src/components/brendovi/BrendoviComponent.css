@@ -106,3 +106,41 @@
     color: #FFFFFF;
 
 }
+
+@media only screen and (max-width: 600px) {
+
+    .tekstiznadBrendova {
+        font-size: 20px;
+    }
+
+    .zadnjiDivSaBrendovima .btn {
+        width: 30%;
+        height: auto;
+    }
+    .zadnjiDivSaBrendovima .btn p {
+        font-size: 13px;
+        padding: 3px;
+    }
+    .brendoviSlike {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+
+    .brendoviSlike {
+        flex-direction: column;
+        margin-top: 20%;
+        gap: 1px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .brendoviSlike {
+        flex-direction: column;
+    }
+    
+}

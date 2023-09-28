@@ -1,6 +1,9 @@
 import React from 'react'
 import './NasiProizvodiComponent.css';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { IconName } from "react-icons/fa";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const NasiProizvodiComponent = () => {
 
@@ -121,7 +124,7 @@ const NasiProizvodiComponent = () => {
                             </li>
 
                         </ul>
-                        <button id="next-slide" class="slide-button material-symbols-rounded">
+                        <button id="next-slide" class="slide-button material-symbols-rounded" >
                         &#xf105;
                         </button>
             </div>

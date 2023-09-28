@@ -213,4 +213,65 @@ header .div1 .burger,
     .header .div1 .jezici ul li a {
         font-size: 10px;
     }
+    
+}
+
+@media only screen and (max-width:900px) {
+    .header .div1 {
+
+        justify-content: flex-start;
+        /*da nam rasiri na celu stranicu*/
+        display: flex;
+        /*da na nam se ne bi lepili uz ivice ekrana*/
+        padding: 0 10%;
+    }
+
+    .header .navbar .nav-links {
+        display: none;
+    }
+
+    .switch{
+        margin-left: auto;
+     }
+
+    .header .div1 .burger {
+        margin-left: 15px;
+        display: block;
+    }
+
+    .header .div1 .close-icon {
+        margin-left: 30px;
+        display: none;
+    }
+
+    .header .div1 .jezici {
+        display: none;
+    }
+
+    .header .div1 .jezici.show {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header .navbar .nav-links.show {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 0px;
+        /*background-color: #ffffff;*/
+        align-items: center;
+    }
+
+    .header .navbar .nav-links li {
+        display: flex;
+    }
+
+    .header .navbar .nav-links li h3 {
+        display: block;
+        font-size: 10px;
+    }
+
+    .header .navbar .nav-links li p {
+        display: block;
+    }
 }

@@ -219,3 +219,105 @@ footer .footerDole .studio {
 
 
 }
+
+@media only screen and (max-width: 600px) {
+    footer .drugiDivKontakt::before,
+    footer .treciDivSadrzaj::before,
+    footer .cetvrtiDivPracenje::before {
+        display: none;
+    }
+
+    footer .drugiDivKontakt .naslov {
+        padding-top: 35px;
+    }
+    .drugiDivKontakt .adresa, .email, .telefon {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    .footerGore {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .treciDivSadrzaj {
+        padding-top: 35px;
+    }
+
+    footer .cetvrtiDivPracenje {
+       padding-top: 35px;
+    }
+
+    footer .footerDole {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    footer .footerDole .copyText {
+        margin-left: 0;
+    }
+    footer .footerDole .privatnost {
+        text-align: center;
+    }
+
+    footer .footerDole .studio {
+        text-align: center;
+        
+    }
+    footer .footerDole .powered {
+        margin-right: 0px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:900px) {
+
+    .footerGore {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    footer .drugiDivKontakt::before,
+    footer .treciDivSadrzaj::before,
+    footer .cetvrtiDivPracenje::before {
+        display: none;
+    }
+
+    footer .drugiDivKontakt .naslov {
+        padding-top: 35px;
+    }
+
+    footer .treciDivSadrzaj {
+        padding-top: 35px;
+
+    }
+
+    footer .cetvrtiDivPracenje {
+       padding-top: 35px;
+        
+       
+    }
+
+    footer .footerDole {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    footer .footerDole .copyText {
+        margin-left: 0;
+    }
+    footer .footerDole .privatnost {
+        text-align: center;
+    }
+
+    footer .footerDole .studio {
+        text-align: center;
+        
+    }
+    footer .footerDole .powered {
+        margin-right: 0px;
+    }
+}

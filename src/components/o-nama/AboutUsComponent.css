@@ -142,3 +142,27 @@
     /*da skine crni okvir sa dugmeta*/
     border: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .divPosleSlajdova .elementiGore .smallText {
+        font-size: 17px;
+    }
+    .divPosleSlajdova .elementiGore .bigText {
+        font-size: 25px;
+    }
+    
+    .divPosleSlajdova{
+        flex-direction: column;
+    }
+    .divPosleSlajdova .elementiDole .btnOnama {
+        max-width: 50%;
+        font-size: 12px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .divPosleSlajdova{
+        flex-direction: column;
+    }
+}

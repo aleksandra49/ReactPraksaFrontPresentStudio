@@ -49,3 +49,22 @@
     margin-top: 10px;
     background-color: #BF0F0F;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .triSlike {
+        flex-direction: column;
+        padding: 30px;
+    }
+    .triSlike p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+
+    .triSlike {
+        flex-direction: column;
+    }
+}

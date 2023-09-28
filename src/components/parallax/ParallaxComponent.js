@@ -11,7 +11,6 @@ const ParallaxComponent = () => {
           </Parallax>
           <div className="parallax-content">
             <h1>POUZDANA DISTRIBUCIJA</h1>
-            <p>Nešto dodatnog teksta.</p>
           </div>
         </div>
       </ParallaxProvider>

@@ -50,3 +50,18 @@
 .parallax-content p {
     font-size: 18px;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .parallax-content h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .parallax-content h1::after {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:900px) {}
