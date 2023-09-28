@@ -202,3 +202,15 @@ header .div1 .burger,
         display: block;
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .logo img {
+        width: 70%;
+    }
+
+    .header .div1 .jezici ul li a {
+        font-size: 10px;
+    }
+}
