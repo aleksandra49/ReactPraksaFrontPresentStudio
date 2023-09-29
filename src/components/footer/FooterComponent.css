@@ -203,6 +203,14 @@ footer .footerDole .uslovi {
 
 }
 
+.PS {
+    display: flex;
+    /* Koristite fleksibilni kontejner za raspoređivanje elemenata u istom redu */
+    justify-content: center;
+    /* Centralizujte sadržaj u horizontalnom smeru */
+    align-items: center;
+}
+
 footer .footerDole .powered {
     font-family: Roboto;
     font-size: 14px;
@@ -211,6 +219,7 @@ footer .footerDole .powered {
     letter-spacing: 0.03em;
     text-decoration: none;
     /*da ga priblizim elementu Studio Present*/
+    /*margin-right: 10px;*/
 
 }
 
@@ -273,6 +282,12 @@ footer .footerDole .studio {
     footer .footerDole .powered {
         margin-right: 0px;
     }
+
+    .PS {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -317,6 +332,12 @@ footer .footerDole .studio {
     }
     footer .footerDole .privatnost {
         text-align: center;
+    }
+
+    .PS {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     footer .footerDole .studio {

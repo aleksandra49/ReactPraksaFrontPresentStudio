@@ -64,11 +64,13 @@ const FooterComponent = () => {
             <div class="uslovi">
                 Uslovi koriscenja
             </div>
-            <div class="powered">
-                Powered by:
-            </div>
-            <div class="studio">
-                StudioPresent
+            <div class="PS">
+                <div class="powered">
+                    Powered by:
+                </div>
+                <div class="studio">
+                    StudioPresent
+                </div>
             </div>
         </div>
     </footer>
