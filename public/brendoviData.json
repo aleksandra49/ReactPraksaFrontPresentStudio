@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "imageSrc": "../../images/logoi-04.png",
+      "naziv": "Dove"
+    },
+    {
+      "id": 2,
+      "imageSrc": "../../images/logoi-03.png",
+      "naziv": "Nivea"
+    },
+    {
+        "id": 3,
+        "imageSrc": "../../images/logoi-05.png",
+        "naziv": "Palmolive"
+      },
+      {
+        "id": 4,
+        "imageSrc": "../../images/logoi-01.png",
+        "naziv": "Vanish"
+      },
+      {
+        "id": 5,
+        "imageSrc": "../../images/logoi-02.png",
+        "naziv": "Ajax"
+      },
+      {
+        "id": 6,
+        "imageSrc": "../../images/logoi-06.png",
+        "naziv": "Cif"
+      }
+    
+  ]

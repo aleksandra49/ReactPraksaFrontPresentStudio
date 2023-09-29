@@ -1,12 +1,43 @@
-import React from 'react'
+import React, { useState, useEffect }  from 'react'
 import './BrendoviComponent.css';
+import LoadDataService from '../../services/LoadDataService';
+//import brendoviData from './brendoviData.json'; 
 
 const BrendoviComponent = () => {
+
+    const [brendovi, setBrendovi] = useState([]);
+
+
+    useEffect(() => {
+      loadDataFromJSON();
+    }, [])
+
+    const loadDataFromJSON = () =>{
+        LoadDataService.loadData().then(response =>{
+            setBrendovi(response);
+          }).catch((error) =>{
+            console.log("error ", error );
+          })
+    }
+
   return (
     <div class="zadnjiDivSaBrendovima">
         <p class="tekstiznadBrendova">Istaknuti brendovi za koje radimo distribuciju</p>
 
         <div class="brendoviSlike">
+
+        {
+            brendovi.map(
+                brend =>
+                <div class="brend" key={brend.id}>
+                    <img src={brend.imageSrc} alt=""/>
+                    {/* <img src={require(`${brend.imageSrc}`)} alt=""/> */}
+                    <p>{brend.naziv}</p>
+                </div>
+                
+            )
+        }
+{/* 
             <div class="brend">
 
                 <img src={require("../../images/logoi-04.png")} alt=""/>
@@ -31,7 +62,7 @@ const BrendoviComponent = () => {
             <div class="brend">
                 <img src={require("../../images/logoi-06.png")} alt=""/>
                 <p>Cif</p>
-            </div>
+            </div> */}
         </div>
 
         <button class="btn">
