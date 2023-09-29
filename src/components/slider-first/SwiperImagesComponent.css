@@ -5,6 +5,7 @@
     position: relative;
     background: white;
     width: 100%;
+    height: 100%;
 }
 
 .swiperBody {
@@ -25,7 +26,7 @@
     background: white;
 }
 
-swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -34,7 +35,7 @@ swiper-slide {
     align-items: center;
 }
 
-swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;

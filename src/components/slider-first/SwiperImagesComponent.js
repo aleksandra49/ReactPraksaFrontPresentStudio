@@ -21,9 +21,9 @@ const SwiperImagesComponent = () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}>
 
-                <SwiperSlide><img className='swiper-image' src={require("../../images/prvaSlikaSwiper.png")} alt="swiper image1" /></SwiperSlide>
-                <SwiperSlide><img className='swiper-image' src={require("../../images/drugaSlikaSwiper.png")} alt="swiper image2" /></SwiperSlide>
-                <SwiperSlide><img className='swiper-image' src={require("../../images/Screenshot (811).png")} alt="swiper image3" /></SwiperSlide>
+                <SwiperSlide className='swiper-slide'><img className='swiper-image' src={require("../../images/prvaSlikaSwiper.png")} alt="swiper image1" /></SwiperSlide>
+                <SwiperSlide className='swiper-slide'><img className='swiper-image' src={require("../../images/drugaSlikaSwiper.png")} alt="swiper image2" /></SwiperSlide>
+                <SwiperSlide className='swiper-slide'><img className='swiper-image' src={require("../../images/Screenshot (811).png")} alt="swiper image3" /></SwiperSlide>
             </Swiper>
 
         </>
