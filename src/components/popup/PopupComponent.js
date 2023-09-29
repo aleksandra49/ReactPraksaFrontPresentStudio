@@ -21,7 +21,7 @@ const PopupComponent = () => {
 
     <div class="popup-container" id="popup">
       <span class="close-button" onClick={closePopup}>&#10006;</span>
-      <img src={require("../../images/popup7.jpg")} alt="Popup Slika" class="popup-image" />
+      <img src={require("../../images/popup8.jpg")} alt="Popup Slika" class="popup-image" />
       <div class="popup-textDvg">
         <p>DVG Company</p>
       </div>

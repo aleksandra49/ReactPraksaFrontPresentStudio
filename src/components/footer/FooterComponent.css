@@ -151,10 +151,16 @@ footer .cetvrtiDivPracenje {
 
 }
 
-.cetvrtiDivPracenje .drustveneMrezeIkone {
+.cetvrtiDivPracenje .drustveneMrezeIkone  {
     letter-spacing: 6px;
     padding-top: 10px;
     padding-left: 15px;
+    /*padding-right: 10px;*/
+}
+
+.cetvrtiDivPracenje .drustveneMrezeIkone img {
+
+    padding-right: 10px;
 }
 
 
